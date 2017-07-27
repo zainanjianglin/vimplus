@@ -34,7 +34,7 @@ then
     fi
 elif which yum > /dev/null
 then
-    sudo yum install -y vim ctags automake gcc gcc-c++ kernel-devel cmake python-devel python3-devel git
+    sudo yum install -y vim ctags automake gcc gcc-c++ kernel-devel cmake python-devel python3-devel git fontconfig
 fi
 
 sudo rm -rf ~/.vimrc
